@@ -1,0 +1,17 @@
+.offset {
+  padding-top: 60px;
+}
+
+#image-center {
+  text-align: center;
+}
+
+.center {
+  display: inline-block;
+  margin: 2em 1em;
+  height: 4em;
+}
+
+#link {
+  text-decoration: none;
+}

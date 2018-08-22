@@ -1,0 +1,11 @@
+****Fill in about
+****Fill in work
+****Fill in contact
+****Fix button mouse hover
+****Make contact buttons terminal
+****Scroll animation
+****Mobile Text to not overfill
+****Update resume
+****Remove unused modules
+****Change to Component
+****Style css
