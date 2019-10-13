@@ -39,7 +39,7 @@ class Resume extends Component {
           {Bodies.employmentTA}
           <Subheader
             textLeft="Android Developer"
-            textCenter="Computational Cognitive Development Lab"
+            textCenter="CoCo Development Lab"
             textRight="September 2018 – April 2019"
           />
           {Bodies.employmentCoCo}
