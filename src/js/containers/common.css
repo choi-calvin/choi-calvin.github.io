@@ -25,3 +25,11 @@
 .small-caps {
   font-variant: small-caps;
 }
+
+.font-small {
+  font-size: 13px;
+}
+
+.font-large {
+  font-size: 25px;
+}
