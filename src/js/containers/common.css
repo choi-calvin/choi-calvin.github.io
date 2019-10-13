@@ -1,0 +1,28 @@
+.row {
+  display: flex;
+  border: 1px solid black;
+}
+
+.column {
+  flex: 1;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
