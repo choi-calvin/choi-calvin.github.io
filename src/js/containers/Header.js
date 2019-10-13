@@ -14,7 +14,7 @@ class Header extends Component {
     const { text } = this.state;
 
     return (
-      <div className="header row bold small-caps">
+      <div className="header bold small-caps">
         {text}
       </div>
     );
