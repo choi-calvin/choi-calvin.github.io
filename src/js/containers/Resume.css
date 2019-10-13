@@ -1,0 +1,16 @@
+.resume {
+  display: inline-block;
+  background-color: white;
+  width: 850px;
+  height: 1100px;
+  margin: 50px 0;
+  box-shadow: 0 4px 6px hsla(0, 0%, 0%, .2);
+}
+
+.center {
+  text-align: center;
+}
+
+.round {
+  border-radius: 10px;
+}
