@@ -9,8 +9,9 @@
   text-align: left;
 }
 
-.resume p {
-  margin: 0 -15px;
+.resume ul {
+  margin: 0 -15px 15px -15px;
+  padding-left: 30px;
 }
 
 .center {
