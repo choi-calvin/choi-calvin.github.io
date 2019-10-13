@@ -2,7 +2,6 @@
   display: inline-block;
   background-color: white;
   width: 850px;
-  height: 1200px;
   margin: 50px 0;
   padding: 75px;
   box-shadow: 0 4px 6px hsla(0, 0%, 0%, .2);
@@ -20,4 +19,11 @@
 
 .round {
   border-radius: 10px;
+}
+
+@media handheld, screen and (max-width: 950px) {
+  .resume {
+    width: 100%;
+    margin: 0;
+  }
 }
