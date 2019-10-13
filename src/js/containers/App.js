@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import './common.css';
 import Resume from './Resume';
 
