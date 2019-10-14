@@ -57,6 +57,13 @@ const Bodies = {
       September 2016 – May 2021
     </span>
   ),
+  dessaCenter: (
+    <span className="cursor has-tooltip" data-tip data-for="dessa">
+      <a href="https://dessa.com" target="_blank">
+        Dessa
+      </a>
+    </span>
+  ),
 };
 
 export default Bodies;

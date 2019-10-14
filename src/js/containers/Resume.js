@@ -22,7 +22,7 @@ class Resume extends Component {
           <Header text="Employment" />
           <Subheader
             textLeft="Machine Learning Developer"
-            textCenter="Dessa"
+            textCenter={Bodies.dessaCenter}
             textRight="September 2019 – Present"
           />
           {Bodies.employmentDessa}

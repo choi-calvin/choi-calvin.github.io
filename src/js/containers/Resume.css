@@ -26,14 +26,3 @@
     margin: 50px 0;
   }
 }
-
-a {
-  color: hsl(204, 64%, 28%);
-  font-weight: 550;
-  text-decoration: none;
-}
-
-a:hover {
-  color: hsl(204, 64%, 28%);
-  text-decoration: none;
-}

@@ -39,9 +39,20 @@
 }
 
 .has-tooltip {
-  color: hsl(204, 62%, 40%);
+  color: hsl(204, 62%, 40%) !important;
 }
 
 .has-tooltip:hover{
-  color: hsl(204, 64%, 28%);
+  color: hsl(204, 64%, 28%) !important;
+}
+
+
+.has-tooltip a {
+  text-decoration: none;
+  color: hsl(204, 62%, 40%) !important;
+}
+
+.has-tooltip a:hover {
+  text-decoration: none;
+  color: hsl(204, 64%, 28%) !important;
 }
