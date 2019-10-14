@@ -37,3 +37,11 @@
 .cursor {
   cursor: pointer;
 }
+
+.has-tooltip {
+  color: hsl(204, 62%, 40%);
+}
+
+.has-tooltip:hover{
+  color: hsl(204, 64%, 28%);
+}

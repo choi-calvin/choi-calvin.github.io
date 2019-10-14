@@ -11,7 +11,7 @@ class Title extends Component {
           <a href="http://www.ccalvin.com">www.ccalvin.com</a>
         </div>
         <div className="column align-center small-caps bold font-large">
-          <span className="cursor" data-tip="Legal name: Hyunjin Choi">
+          <span className="cursor has-tooltip" data-tip="Legal name: Hyunjin Choi">
             Calvin Choi
           </span>
         </div>
@@ -19,7 +19,6 @@ class Title extends Component {
           <a href="tel:647-673-5633">(647) 673-5633</a><br />
           calvinhyunchoi@gmail.com
         </div>
-        <ReactTooltip place="bottom" type="dark" effect="solid"/>
       </div>
     );
   }

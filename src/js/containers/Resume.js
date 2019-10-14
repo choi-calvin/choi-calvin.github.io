@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactTooltip from 'react-tooltip';
 import './Resume.css';
 import Title from './Title';
 import Header from './Header';
@@ -7,6 +8,12 @@ import Bodies from '../data/bodies';
 
 class Resume extends Component {
   render() {
+    const educationRight = (
+      <span className="cursor has-tooltip" data-tip="4 years in school + 1 year of internships">
+        September 2016 – May 2021
+      </span>
+    );
+
     return (
       <div className="center">
         <div className="resume round">
@@ -15,7 +22,7 @@ class Resume extends Component {
           <Subheader
             textLeft="Toronto, ON"
             textCenter="University of Toronto"
-            textRight="September 2016 – May 2021"
+            textRight={educationRight}
           />
           {Bodies.educationMain}
           <Header text="Employment" />
@@ -54,6 +61,7 @@ class Resume extends Component {
           <Header text="Languages and Technologies" />
           {Bodies.languagesMain}
         </div>
+        <ReactTooltip place="bottom" type="dark" effect="solid"/>
       </div>
     );
   }
