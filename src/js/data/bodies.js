@@ -52,6 +52,11 @@ const Bodies = {
       <li>Git, particularly with GitHub</li>
     </ul>
   ),
+  educationRight: (
+    <span className="cursor has-tooltip" data-tip="4 years in school + 1 year of internships">
+      September 2016 – May 2021
+    </span>
+  ),
 };
 
 export default Bodies;

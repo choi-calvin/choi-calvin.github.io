@@ -8,12 +8,6 @@ import Tooltips from './Tooltips';
 
 class Resume extends Component {
   render() {
-    const educationRight = (
-      <span className="cursor has-tooltip" data-tip="4 years in school + 1 year of internships">
-        September 2016 – May 2021
-      </span>
-    );
-
     return (
       <div className="center">
         <div className="resume round">
@@ -22,7 +16,7 @@ class Resume extends Component {
           <Subheader
             textLeft="Toronto, ON"
             textCenter="University of Toronto"
-            textRight={educationRight}
+            textRight={Bodies.educationRight}
           />
           {Bodies.educationMain}
           <Header text="Employment" />
