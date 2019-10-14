@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactTooltip from 'react-tooltip'
 import './Title.css';
 
 class Title extends Component {
@@ -7,15 +8,18 @@ class Title extends Component {
       <div className="title row">
         <div className="column align-left font-small">
           Toronto, ON<br />
-          www.ccalvin.com
+          <a href="http://www.ccalvin.com">www.ccalvin.com</a>
         </div>
         <div className="column align-center small-caps bold font-large">
-          Calvin Choi
+          <span className="cursor" data-tip="Legal name: Hyunjin Choi">
+            Calvin Choi
+          </span>
         </div>
         <div className="column align-right font-small">
-          (647) 673-5633<br />
+          <a href="tel:647-673-5633">(647) 673-5633</a><br />
           calvinhyunchoi@gmail.com
         </div>
+        <ReactTooltip place="bottom" type="dark" effect="solid"/>
       </div>
     );
   }

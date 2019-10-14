@@ -33,3 +33,7 @@
 .font-large {
   font-size: 25px;
 }
+
+.cursor {
+  cursor: pointer;
+}
