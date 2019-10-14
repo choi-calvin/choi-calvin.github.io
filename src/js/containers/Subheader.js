@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './Header.css';
 
 class Subheader extends Component {
   constructor(props) {
