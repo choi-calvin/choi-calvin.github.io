@@ -1,12 +1,9 @@
 import React from 'react';
-import { ReactComponent as Logo } from '../../resources/images/cogsci.svg';
-
-const _cogSciTooltip = "Cognitive science is the interdisciplinary, scientific study of the mind and its processes.";
 
 const Bodies = {
   educationMain: (
     <ul>
-      <li>B.S. in Computer Science and <span className="cursor has-tooltip" data-tip={_cogSciTooltip}>Cognitive Science</span>, expected May 2021. <b>GPA: 3.85</b></li>
+      <li>B.S. in Computer Science and <span className="cursor has-tooltip" data-tip data-for="cogsci">Cognitive Science</span>, expected May 2021. <b>GPA: 3.85</b></li>
       <li>Coursework: Operating Systems; Databases; Machine Learning; Artificial Intelligence; Web Development; Cognitive Neuroscience</li>
     </ul>
   ),
