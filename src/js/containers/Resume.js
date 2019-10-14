@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import ReactTooltip from 'react-tooltip';
 import './Resume.css';
 import Title from './Title';
 import Header from './Header';
 import Subheader from './Subheader';
 import Bodies from '../data/bodies';
+import Tooltips from './Tooltips';
 
 class Resume extends Component {
   render() {
@@ -61,7 +61,7 @@ class Resume extends Component {
           <Header text="Languages and Technologies" />
           {Bodies.languagesMain}
         </div>
-        <ReactTooltip place="bottom" type="dark" effect="solid"/>
+        <Tooltips />
       </div>
     );
   }
