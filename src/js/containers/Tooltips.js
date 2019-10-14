@@ -17,6 +17,10 @@ class Tooltips extends Component {
           Dessa creates products to build applications for machine learning at scale.<br />
           You may know them for RealTalk, a speech synthesis model that recreated the voice of podcast host Joe Rogan.
         </ReactTooltip>
+        <ReactTooltip id="blicket" place="bottom" type="dark" effect="solid" className="react-tooltip">
+          The app took in real-time input from the camera to detect patterns in objects called "blickets".<br />
+          These were used in cognitive experiments testing childrens' abilities to learn inferences about categorization.
+        </ReactTooltip>
       </div>
     );
   }
