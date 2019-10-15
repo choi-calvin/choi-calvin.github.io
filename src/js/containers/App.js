@@ -5,7 +5,6 @@ import ReactGA from 'react-ga';
 
 class App extends Component {
   componentDidMount() {
-    ReactGA.initialize('UA-150069983-1');
     ReactGA.pageview(window.location.pathname + window.location.search);
   }
 
