@@ -5,6 +5,6 @@ import App from './js/containers/App';
 import registerServiceWorker from './registerServiceWorker';
 import ReactGA from 'react-ga';
 
-ReactGA.initialize('UA-150069983-1');
+ReactGA.initialize(process.env.GA);
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
