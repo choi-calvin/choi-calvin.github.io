@@ -3,12 +3,11 @@
 }
 
 .title a {
-  color: hsl(204, 64%, 28%);
-  font-weight: 550;
+  color: hsl(204, 62%, 40%) !important;
   text-decoration: none;
 }
 
 .title a:hover {
-  color: hsl(204, 64%, 28%);
+  color: hsl(204, 64%, 28%) !important;
   text-decoration: none;
 }

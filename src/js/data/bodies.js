@@ -41,7 +41,7 @@ const Bodies = {
     <ul>
       <li><b>ext2:</b> Implementation of the ext2 file system from scratch, supporting file system functions such as navigation, directory creation, file linking, and corruption detection and restoral.  <i>C</i></li>
       <li><b>Color Infinity:</b> iOS game monetized with Google AdMob. Accumulated 100+ installs and a <span className="cursor has-tooltip" data-tip="Thanks mom!">5-star rating</span> on the App Store.  <i>Swift, Xcode</i></li>
-      <li><b>DontSkipTheDishes:</b> Online dashboard of personalized food recipes based on ingredients in your fridge. Users could create accounts to log their ingredients and rate other people’s recipes.  <i>React.js, Express.js, MongoDB</i></li>
+      <li><span className="cursor has-tooltip" data-tip="A parody on the food delivery service SkipTheDishes, for all the non-Canadians."><b>DontSkipTheDishes:</b></span> Online dashboard of personalized food recipes based on ingredients in your fridge. Users could create accounts to log their ingredients and rate other people’s recipes.  <i>React.js, Express.js, MongoDB</i></li>
     </ul>
   ),
   languagesMain: (
