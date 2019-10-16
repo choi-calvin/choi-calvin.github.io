@@ -9,13 +9,13 @@ class SocialButtons extends Component {
   render() {
     return (
       <div className="social-buttons round">
-        <a href="https://github.com/hyun20005">
+        <a href="https://github.com/hyun20005" target="_blank" rel="noopener noreferrer">
           <img src={GitHub} className="github-icon" alt="GitHub logo" />
         </a>
-        <a href="https://www.linkedin.com/in/calvin-choi/">
+        <a href="https://www.linkedin.com/in/calvin-choi/" target="_blank" rel="noopener noreferrer">
           <img src={LinkedIn} className="linkedin-icon" alt="LinkedIn logo" />
         </a>
-        <a href={Resume}>
+        <a href={Resume} target="_blank" rel="noopener noreferrer">
           <img src={ResumeIcon} className="resume-icon" alt="Resume logo" />
         </a>
       </div>
