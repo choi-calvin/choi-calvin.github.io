@@ -5,6 +5,7 @@ import Header from './Header';
 import Subheader from './Subheader';
 import Bodies from '../data/bodies';
 import Tooltips from './Tooltips';
+import SocialButtons from './SocialButtons';
 
 class Resume extends Component {
   render() {
@@ -55,6 +56,7 @@ class Resume extends Component {
           <Header text="Languages and Technologies" />
           {Bodies.languagesMain}
         </div>
+        <SocialButtons />
         <Tooltips />
       </div>
     );

@@ -1,0 +1,21 @@
+.social-buttons {
+  position: fixed;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 30px;
+  background: white;
+  padding: 10px;
+}
+
+.github-icon {
+  width: 50px;
+  display: block;
+}
+
+.linkedin-icon {
+  width: 40px;
+  display: block;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
