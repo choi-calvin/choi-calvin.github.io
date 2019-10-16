@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './common.css';
-import Resume from './Resume';
 import ReactGA from 'react-ga';
+import Resume from './Resume';
+import './common.css';
 
 class App extends Component {
   componentDidMount() {
