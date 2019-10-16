@@ -10,13 +10,13 @@ class SocialButtons extends Component {
     return (
       <div className="social-buttons round">
         <a href="https://github.com/hyun20005" target="_blank" rel="noopener noreferrer">
-          <img src={GitHub} className="github-icon" alt="GitHub logo" />
+          <img src={GitHub} className="icon github-icon" alt="GitHub logo" />
         </a>
         <a href="https://www.linkedin.com/in/calvin-choi/" target="_blank" rel="noopener noreferrer">
-          <img src={LinkedIn} className="linkedin-icon" alt="LinkedIn logo" />
+          <img src={LinkedIn} className="icon linkedin-icon" alt="LinkedIn logo" />
         </a>
         <a href={Resume} target="_blank" rel="noopener noreferrer">
-          <img src={ResumeIcon} className="resume-icon" alt="Resume logo" />
+          <img src={ResumeIcon} className="icon resume-icon" alt="Resume logo" />
         </a>
       </div>
     );
