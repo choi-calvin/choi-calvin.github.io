@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import GitHub from '../../resources/images/github-icon.png';
 import LinkedIn from '../../resources/images/linkedin-icon.png';
+import ResumeIcon from '../../resources/images/resume-icon.png';
+import Resume from '../../resources/calvin_choi_resume.pdf';
 import './SocialButtons.css';
 
 class SocialButtons extends Component {
@@ -12,6 +14,9 @@ class SocialButtons extends Component {
         </a>
         <a href="https://www.linkedin.com/in/calvin-choi/">
           <img src={LinkedIn} className="linkedin-icon" alt="LinkedIn logo" />
+        </a>
+        <a href={Resume}>
+          <img src={ResumeIcon} className="resume-icon" alt="Resume logo" />
         </a>
       </div>
     );
