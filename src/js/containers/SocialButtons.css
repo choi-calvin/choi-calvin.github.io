@@ -1,15 +1,18 @@
 .social-buttons {
-  position: fixed;
-  display: inline-block;
-  margin-top: 50px;
-  margin-left: 30px;
+  display: block;
+  position: relative;
   background: white;
   padding: 10px;
+  margin-bottom: 235px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .icon {
   opacity: 0.7;
-  display: block;
+  display: inline-block;
+  margin-right: 15px;
 }
 
 .icon:hover {
@@ -22,14 +25,40 @@
 
 .linkedin-icon {
   width: 40px;
-  margin-top: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .resume-icon {
   width: 35px;
-  margin-top: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-right: 0;
+}
+
+@media screen and (min-width: 950px) {
+  .social-buttons {
+    position: fixed;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 10px;
+    width: auto;
+  }
+
+  .icon {
+    display: block;
+  }
+
+  .github-icon {
+    margin-right: auto;
+  }
+
+  .linkedin-icon {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .resume-icon {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
