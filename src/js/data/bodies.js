@@ -59,9 +59,7 @@ const Bodies = {
   ),
   dessaCenter: (
     <span className="cursor has-tooltip" data-tip data-for="dessa">
-      <a href="https://dessa.com" target="_blank" rel="noopener noreferrer">
-        Dessa
-      </a>
+      Dessa
     </span>
   ),
 };
