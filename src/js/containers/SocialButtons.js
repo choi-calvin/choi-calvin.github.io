@@ -9,7 +9,7 @@ class SocialButtons extends Component {
   render() {
     return (
       <div className="social-buttons round">
-        <a href="https://github.com/hyun20005" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/choi-calvin" target="_blank" rel="noopener noreferrer">
           <img src={GitHub} className="icon github-icon" alt="GitHub logo" />
         </a>
         <a href="https://www.linkedin.com/in/calvin-choi/" target="_blank" rel="noopener noreferrer">
