@@ -6,7 +6,7 @@ class Title extends Component {
     return (
       <div className="title row">
         <div className="column align-left font-small">
-          Toronto, ON<br />
+          Toronto, Canada<br />
           <span className="cursor has-tooltip" data-tip="Click for recursion.">
             <a href="http://www.ccalvin.com">www.ccalvin.com</a>
           </span>

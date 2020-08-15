@@ -4,14 +4,19 @@ const Bodies = {
   educationMain: (
     <ul>
       <li>B.S. in Computer Science and <span className="cursor has-tooltip" data-tip data-for="cogsci">Cognitive Science</span>, expected May 2021. <b>GPA: 3.85</b></li>
-      <li>Coursework: Operating Systems; Databases; Machine Learning; Artificial Intelligence; Web Development; Cognitive Neuroscience</li>
+      <li>Dean’s List Scholar 2017, 2018, 2019</li>
+      <li>Coursework: Algorithms and Complexity; Operating Systems; Databases; Machine Learning; Artificial Intelligence; Web Development; Cognitive Neuroscience</li>
+    </ul>
+  ),
+  employmentSquare: (
+    <ul>
+      <li>Deployed a deep learning model to production using Google’s AI Platform, <b>increasing automation</b> of customer service by ~4%.</li>
     </ul>
   ),
   employmentDessa: (
     <ul>
       <li>Developed a Python SDK to save machine learning model artifacts to redis using Flask and Docker, used by <b>hundreds of AI researchers</b>.</li>
       <li>Integrated graphing libraries into the user interface using React to visualize parameter-metric correlations from machine learning models.</li>
-      <li>Managed automated builds for <b>product releases</b> via Docker, Jenkins, and Google Container Registry.</li>
     </ul>
   ),
   employmentPolicyMe: (
@@ -34,7 +39,6 @@ const Bodies = {
   employmentDuncan: (
     <ul>
       <li>Rewrote a part of the pipeline for eye-tracking experiment data using pandas to improve speed efficiency of data flow by <b>10x</b>.</li>
-      <li>Managed data collection using Amazon’s MTurk and the AWS SDK.</li>
     </ul>
   ),
   projectsMain: (
@@ -46,15 +50,14 @@ const Bodies = {
   ),
   languagesMain: (
     <ul>
-      <li>Python, React.js, Javascript, Java, C (proficient)</li>
-      <li>Bash, Docker (knowledgeable)</li>
-      <li>Swift, Xcode, Android Studio (prior experience)</li>
-      <li>Git, particularly with GitHub</li>
+      <li><i>Proficient:</i> Python, React.js, Javascript</li>
+      <li><i>Familiar:</i> Java, C, Git, Bash, Docker</li>
+      <li><i>Prior experience:</i> Kotlin, Swift, Xcode, Android Studio</li>
     </ul>
   ),
   educationRight: (
     <span className="cursor has-tooltip" data-tip="4 years in school + 1 year of internships">
-      September 2016 – May 2021
+      Sept 2016 – May 2021
     </span>
   ),
   dessaCenter: (

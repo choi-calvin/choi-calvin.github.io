@@ -10,9 +10,7 @@ class Tooltips extends Component {
         <ReactTooltip place="bottom" type="dark" effect="solid" className="react-tooltip"/>
         <ReactTooltip id="cogsci" place="bottom" type="dark" effect="solid" className="react-tooltip">
           I strongly believe that ideas from psychology and neuroscience can benefit current AI research.
-          A lot of my non-technical coursework revolves around how the brain forms neural connections to learn new things.<br /><br />
-          This cultish-looking diagram illustrates the essence of cognitive science:<br />
-          <img src={Cogsci} className="cogsci-img" alt="A diagram showing the disciplines of cognitive science." />
+          A lot of my non-technical coursework revolves around how the brain forms neural connections to learn new things.
         </ReactTooltip>
         <ReactTooltip id="dessa" place="bottom" type="dark" effect="solid" className="react-tooltip">
           Dessa creates products to build applications for machine learning at scale.<br />

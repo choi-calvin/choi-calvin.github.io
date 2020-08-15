@@ -15,7 +15,7 @@ class Resume extends Component {
           <Title />
           <Header text="Education" />
           <Subheader
-            textLeft="Toronto, ON"
+            textLeft="Toronto, Canada"
             textCenter="University of Toronto"
             textRight={Bodies.educationRight}
           />
@@ -23,8 +23,14 @@ class Resume extends Component {
           <Header text="Employment" />
           <Subheader
             textLeft="Machine Learning Developer"
+            textCenter="Square, Inc."
+            textRight="Feb – Sept 2020"
+          />
+          {Bodies.employmentSquare}
+          <Subheader
+            textLeft="Machine Learning Developer"
             textCenter={Bodies.dessaCenter}
-            textRight="September 2019 – Present"
+            textRight="Sept 2019 – Feb 2020"
           />
           {Bodies.employmentDessa}
           <Subheader
@@ -36,19 +42,19 @@ class Resume extends Component {
           <Subheader
             textLeft="Teaching Assistant"
             textCenter="University of Toronto"
-            textRight="January – April 2019"
+            textRight="Jan – April 2019, 2020"
           />
           {Bodies.employmentTA}
           <Subheader
             textLeft="Android Developer"
             textCenter="CoCo Development Lab"
-            textRight="September 2018 – April 2019"
+            textRight="Sept 2018 – Apr 2019"
           />
           {Bodies.employmentCoCo}
           <Subheader
             textLeft="Lab Data Scientist"
             textCenter="Duncan Lab"
-            textRight="May – August 2018"
+            textRight="May – Aug 2018"
           />
           {Bodies.employmentDuncan}
           <Header text="Projects" />
