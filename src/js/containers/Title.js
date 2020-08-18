@@ -17,7 +17,7 @@ class Title extends Component {
           </span>
         </div>
         <div className="column align-right font-small">
-          (647) 673-5633<br />
+          <br />
           calvinhyunchoi@gmail.com
         </div>
       </div>
