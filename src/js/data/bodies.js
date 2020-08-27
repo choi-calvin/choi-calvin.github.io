@@ -10,7 +10,9 @@ const Bodies = {
   ),
   employmentSquare: (
     <ul>
-      <li>Deployed a deep learning model to production using Google’s AI Platform, <b>increasing automation</b> of customer service by ~4%.</li>
+      <li>Deployed the company’s first deep learning model to production using Google’s AI Platform, <b>increasing automation</b> of customer service by ~4%.</li>
+      <li>Created new data pipelines to produce and aggregate data for the machine learning engineers.</li>
+      <li>Developed a computer vision powered voice-bot which greets employees as they enter the office.</li>
     </ul>
   ),
   employmentDessa: (
